@@ -86,8 +86,10 @@ h4 {
   letter-spacing: var(--spacing);
   text-transform: capitalize;
   line-height: 1.25;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.50rem;
   font-family: var(--ff-primary);
+  display: flex;
+  justify-content: center;
 }
 h1 {
   font-size: 3rem;
@@ -126,6 +128,8 @@ p {
   h3,
   h4 {
     line-height: 1;
+    display: grid;
+    justify-content: center;
   }
 }
 /*  global classes */
@@ -171,6 +175,7 @@ main {
   background: var(--clr-primary-5);
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 4rem;
 }
 .container {
   width: 80vw;
