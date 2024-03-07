@@ -1,2 +1,2 @@
-# little-projects
+# Small-Projects
 Just small projects
